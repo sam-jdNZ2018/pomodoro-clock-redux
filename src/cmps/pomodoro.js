@@ -1,6 +1,8 @@
-const render = ReactDOM;
-const Provider = ReactRedux.Provider;
-const connect = ReactRedux.connect;
+import React from 'react';
+import { Provider, connect } from 'react-redux'
+import { createStore } from 'redux'
+import SettingChanger from './setting-changer';
+
 const SESSION = "SESSION";
 const BREAK = "BREAK";
 const INITIAL_STATE = {status: "",time_type: SESSION, time_left: 25 * 60, break_length: 5, session_length: 25};
@@ -96,20 +98,7 @@ function mapDispatchToProps(dispatch){
   };
 }
 
-const store = Redux.createStore(clockReducer);
-
-const SettingChanger = props => {
-  return (
-     <div class="setting-cont">
-       <div id={props.sname + "-label"} style={props.labelColor}>{props.sname.charAt(0).toUpperCase() + props.sname.slice(1)} Length </div>
-       <div class="setting-inner">
-         <button id={props.sname + "-decrement"} style={props.visible} type="button" onClick={()=>props.changer(-1)} ><i className="fas fa-minus"></i></button>
-         <label id={props.sname + "-length"} style={props.labelColor}> {props.setting}</label>
-         <button id={props.sname + "-increment"} style={props.visible} type="button" onClick={()=>props.changer(1)} ><i className="fas fa-plus"></i></button>
-       </div>
-     </div>
-  );
-};
+const store = createStore(clockReducer);
 
 class Pomodoro extends React.Component{
  constructor(props){
@@ -233,4 +222,4 @@ class ClockWrapper extends React.Component{
   }
 }
 
-ReactDOM.render(<ClockWrapper/>,document.getElementById("main"));
+export default ClockWrapper;
