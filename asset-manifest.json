@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pomodoro-clock-react/static/css/main.bf6e3427.chunk.css",
-    "main.js": "/pomodoro-clock-react/static/js/main.9a4a8e9a.chunk.js",
-    "main.js.map": "/pomodoro-clock-react/static/js/main.9a4a8e9a.chunk.js.map",
-    "runtime~main.js": "/pomodoro-clock-react/static/js/runtime~main.0fc23be4.js",
-    "runtime~main.js.map": "/pomodoro-clock-react/static/js/runtime~main.0fc23be4.js.map",
-    "static/js/2.d8ac08be.chunk.js": "/pomodoro-clock-react/static/js/2.d8ac08be.chunk.js",
-    "static/js/2.d8ac08be.chunk.js.map": "/pomodoro-clock-react/static/js/2.d8ac08be.chunk.js.map",
-    "index.html": "/pomodoro-clock-react/index.html",
-    "precache-manifest.ccf762f5ad90ed4a942f237e2dad9594.js": "/pomodoro-clock-react/precache-manifest.ccf762f5ad90ed4a942f237e2dad9594.js",
-    "service-worker.js": "/pomodoro-clock-react/service-worker.js",
-    "static/css/main.bf6e3427.chunk.css.map": "/pomodoro-clock-react/static/css/main.bf6e3427.chunk.css.map"
+    "main.css": "/pomodoro-clock-react-redux/static/css/main.bf6e3427.chunk.css",
+    "main.js": "/pomodoro-clock-react-redux/static/js/main.f691c961.chunk.js",
+    "main.js.map": "/pomodoro-clock-react-redux/static/js/main.f691c961.chunk.js.map",
+    "runtime~main.js": "/pomodoro-clock-react-redux/static/js/runtime~main.fb8e787d.js",
+    "runtime~main.js.map": "/pomodoro-clock-react-redux/static/js/runtime~main.fb8e787d.js.map",
+    "static/js/2.d8ac08be.chunk.js": "/pomodoro-clock-react-redux/static/js/2.d8ac08be.chunk.js",
+    "static/js/2.d8ac08be.chunk.js.map": "/pomodoro-clock-react-redux/static/js/2.d8ac08be.chunk.js.map",
+    "index.html": "/pomodoro-clock-react-redux/index.html",
+    "precache-manifest.a974c4342d479e87b434d06d5e61f18d.js": "/pomodoro-clock-react-redux/precache-manifest.a974c4342d479e87b434d06d5e61f18d.js",
+    "service-worker.js": "/pomodoro-clock-react-redux/service-worker.js",
+    "static/css/main.bf6e3427.chunk.css.map": "/pomodoro-clock-react-redux/static/css/main.bf6e3427.chunk.css.map"
   }
 }
