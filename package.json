@@ -22,7 +22,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://sam-jdnz2018.github.io/pomodoro-clock-react/",
+  "homepage": "https://sam-jdnz2018.github.io/pomodoro-clock-react-redux/",
   "browserslist": {
     "production": [
       ">0.2%",
