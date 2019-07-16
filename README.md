@@ -17,6 +17,7 @@ Built using:
 # Associated Links
 
 * [Original Codepen Link](https://codepen.io/sam_donaldson2018/pen/EzObGa)
+* [JQuery Version Repository](https://github.com/sam-jdNZ2018/pomodoro-clock-jquery)
 * [React Version Repository](https://github.com/sam-jdNZ2018/pomodoro-clock-react)
 * [FreeCodeCamp 'Build a Pomodoro Clock' Original Design Document](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-pomodoro-clock)
 
